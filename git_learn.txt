@@ -12,4 +12,6 @@
 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
 	git status：查看仓库状态
 暂存区为git add提交的文件暂存的内存空间，再通过git commit提交到仓库。
-
+5、管理修改
+第一次修改 -> git add -> 第二次修改 -> git commit
+提交后，用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别：
